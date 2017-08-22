@@ -1,15 +1,15 @@
-import java.util.Scanner;  //importing Scanner class to get the data from the user
+import java.util.*;  //importing Scanner class to get the data from the user
 
 public class TypeCastDemo {
 
 	public static void main(String[] args) {
 
-		byte num;	//initializing variables
-		short num1;
-		int num2;
-		long num3;
-		float num4;
-		double num5, num6;
+		byte num;	//initializing variable in byte data type
+		short num1;	//initializing variable in short data type
+		int num2;	//initializing variable in integer data type
+		long num3;	//initializing variable in long data type
+		float num4;	//initializing variable in float data type
+		double num5, num6;	//initializing variable in double data type
 
 		Scanner sc = new Scanner(System.in); //Creating Scanner class object
 
